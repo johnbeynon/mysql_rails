@@ -26,4 +26,4 @@ development:
 #  <<: *default
 #  database: db/production.sqlite3
 production:
-  url: <%= ENV['CLEARDB_DATABASE_URL'] %>
+  url: <%= ENV['CLEARDB_DATABASE_URL'].gsub('mysql', 'mysql2') %>
