@@ -12,7 +12,7 @@
     },
     "SETUP_BY": {
             "description": "Who initiated this setup",
-            "value": ""
+            "value": "john Beynon"
     }
   },
   "scripts": {
