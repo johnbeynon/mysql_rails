@@ -10,8 +10,7 @@
 #  timeout: 5000
 #
 development:
-  adapter: mysql2
-  url: <%= ENV['DATABASE_URL'] %>
+  url: <%= ENV['CLEARDB_DATABASE_URL'].gsub('mysql', 'mysql2') %>
 #  <<: *default
 #  database: db/development.sqlite3
 #
