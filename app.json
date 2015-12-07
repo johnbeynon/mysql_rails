@@ -16,6 +16,6 @@
     }
   },
   "scripts": {
-    "postdeploy": "post_deploy.sh"
+    "postdeploy": "bin/post_deploy.sh"
   }
 }
